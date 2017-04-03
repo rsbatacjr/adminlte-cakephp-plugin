@@ -1,1 +1,5 @@
-# adminlte-cakephp-plugin
+# Installation
+
+```
+composer require rsbatacjr/adminlte-cakephp-plugin
+```
