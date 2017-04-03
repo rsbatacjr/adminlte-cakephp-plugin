@@ -1,23 +1,5 @@
 {
     "name": "rsbatacjr/adminlte-cakephp-plugin",
     "description": "AdminLTE plugin for CakePHP",
-    "type": "cakephp-plugin",
-    "require": {
-        "php": ">=5.5.9",
-        "cakephp/cakephp": ">=3.3.2 <4.0.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "adminlte-cakephp-plugin\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "adminlte-cakephp-plugin\\Test\\": "tests",
-            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
-        }
-    }
+    "type": "cakephp-plugin"
 }
