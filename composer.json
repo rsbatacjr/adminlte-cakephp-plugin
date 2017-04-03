@@ -1,5 +1,5 @@
 {
-    "name": "your-name-here/AdminLTE",
+    "name": "rsbatacjr/AdminLTE",
     "description": "AdminLTE plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
