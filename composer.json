@@ -1,5 +1,6 @@
 {
     "name": "rsbatacjr/adminlte-cakephp-plugin",
     "description": "AdminLTE plugin for CakePHP",
-    "type": "cakephp-plugin"
+    "type": "cakephp-plugin",
+    "version": "0.0.1"
 }
