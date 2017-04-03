@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AdminLTE\\": "src"
+            "adminlte-cakephp-plugin\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AdminLTE\\Test\\": "tests",
+            "adminlte-cakephp-plugin\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
