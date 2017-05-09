@@ -1,23 +1,28 @@
 {
-    "name": "rsbatacjr/AdminLTE",
-    "description": "AdminLTE plugin for CakePHP",
-    "type": "cakephp-plugin",
-    "require": {
-        "php": ">=5.5.9",
-        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+    "name":"rsbatacjr/adminlte-cakephp-plugin",
+    "description":"AdminLTE plugin for CakePHP",
+    "type":"cakephp-plugin",
+    "keywords": [
+    	"cakephp",
+    	"adminlte",
+    	"template",
+    	"themes"
+    ],
+    "homepage":"https://github.com/rsbatacjr/adminlte-cakephp-plugin",
+    "license":"MIT",
+    "authors":[
+    	{
+    		"name":"Reynaldo S. Batac Jr.",
+    		"role": "Maintainer",
+    		"https://github.com/rsbatacjr"
+    	}
+    ],
+    "require":{
+    	"cakephp/cakephp": "^3.*"
     },
-    "require-dev": {
-        "phpunit/phpunit": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "AdminLTE\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "AdminLTE\\Test\\": "tests",
-            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
-        }
+    "support":{
+    	"source":"https://github.com/rsbatacjr/adminlte-cakephp-plugin",
+    	"issues":"https://github.com/rsbatacjr/adminlte-cakephp-plugin/issues",
+    	"email":"reynaldo.batac@outlook.com"
     }
 }
